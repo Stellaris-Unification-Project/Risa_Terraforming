@@ -32,13 +32,13 @@ terraform_link = {
 					has_trait = trait_pc_desert_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -84,13 +84,13 @@ terraform_link = {
 					has_trait = trait_pc_arid_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -136,13 +136,13 @@ terraform_link = {
 					has_trait = trait_pc_savannah_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -188,13 +188,13 @@ terraform_link = {
 					has_trait = trait_pc_arctic_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -240,13 +240,13 @@ terraform_link = {
 					has_trait = trait_pc_tundra_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -292,13 +292,13 @@ terraform_link = {
 					has_trait = trait_pc_alpine_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -348,13 +348,13 @@ terraform_link = {
 					has_trait = trait_pc_desert_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -400,13 +400,13 @@ terraform_link = {
 					has_trait = trait_pc_arid_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -452,13 +452,13 @@ terraform_link = {
 					has_trait = trait_pc_savannah_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -504,13 +504,13 @@ terraform_link = {
 					has_trait = trait_pc_arctic_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -556,13 +556,13 @@ terraform_link = {
 					has_trait = trait_pc_tundra_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -608,13 +608,13 @@ terraform_link = {
 					has_trait = trait_pc_alpine_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -664,13 +664,13 @@ terraform_link = {
 					has_trait = trait_pc_desert_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -716,13 +716,13 @@ terraform_link = {
 					has_trait = trait_pc_arid_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -768,13 +768,13 @@ terraform_link = {
 					has_trait = trait_pc_savannah_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -820,13 +820,13 @@ terraform_link = {
 					has_trait = trait_pc_arctic_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -872,13 +872,13 @@ terraform_link = {
 					has_trait = trait_pc_tundra_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -924,13 +924,13 @@ terraform_link = {
 					has_trait = trait_pc_alpine_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -980,13 +980,13 @@ terraform_link = {
 					has_trait = trait_pc_tropical_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1032,13 +1032,13 @@ terraform_link = {
 					has_trait = trait_pc_continental_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1084,13 +1084,13 @@ terraform_link = {
 					has_trait = trait_pc_ocean_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1136,13 +1136,13 @@ terraform_link = {
 					has_trait = trait_pc_arctic_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1188,13 +1188,13 @@ terraform_link = {
 					has_trait = trait_pc_tundra_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1240,13 +1240,13 @@ terraform_link = {
 					has_trait = trait_pc_alpine_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1296,13 +1296,13 @@ terraform_link = {
 					has_trait = trait_pc_tropical_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1348,13 +1348,13 @@ terraform_link = {
 					has_trait = trait_pc_continental_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1400,13 +1400,13 @@ terraform_link = {
 					has_trait = trait_pc_ocean_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1452,13 +1452,13 @@ terraform_link = {
 					has_trait = trait_pc_arctic_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1504,13 +1504,13 @@ terraform_link = {
 					has_trait = trait_pc_tundra_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1556,13 +1556,13 @@ terraform_link = {
 					has_trait = trait_pc_alpine_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1612,13 +1612,13 @@ terraform_link = {
 					has_trait = trait_pc_tropical_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1664,13 +1664,13 @@ terraform_link = {
 					has_trait = trait_pc_continental_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1716,13 +1716,13 @@ terraform_link = {
 					has_trait = trait_pc_ocean_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1768,13 +1768,13 @@ terraform_link = {
 					has_trait = trait_pc_arctic_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1820,13 +1820,13 @@ terraform_link = {
 					has_trait = trait_pc_tundra_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1872,13 +1872,13 @@ terraform_link = {
 					has_trait = trait_pc_alpine_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1928,13 +1928,13 @@ terraform_link = {
 					has_trait = trait_pc_tropical_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -1980,13 +1980,13 @@ terraform_link = {
 					has_trait = trait_pc_continental_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2032,13 +2032,13 @@ terraform_link = {
 					has_trait = trait_pc_ocean_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2084,13 +2084,13 @@ terraform_link = {
 					has_trait = trait_pc_arid_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2136,13 +2136,13 @@ terraform_link = {
 					has_trait = trait_pc_desert_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2188,13 +2188,13 @@ terraform_link = {
 					has_trait = trait_pc_savannah_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2244,13 +2244,13 @@ terraform_link = {
 					has_trait = trait_pc_tropical_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2296,13 +2296,13 @@ terraform_link = {
 					has_trait = trait_pc_continental_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2348,13 +2348,13 @@ terraform_link = {
 					has_trait = trait_pc_ocean_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2400,13 +2400,13 @@ terraform_link = {
 					has_trait = trait_pc_arid_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2452,13 +2452,13 @@ terraform_link = {
 					has_trait = trait_pc_desert_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2504,13 +2504,13 @@ terraform_link = {
 					has_trait = trait_pc_savannah_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2560,13 +2560,13 @@ terraform_link = {
 					has_trait = trait_pc_tropical_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2612,13 +2612,13 @@ terraform_link = {
 					has_trait = trait_pc_continental_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2664,13 +2664,13 @@ terraform_link = {
 					has_trait = trait_pc_ocean_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2716,13 +2716,13 @@ terraform_link = {
 					has_trait = trait_pc_arid_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2768,13 +2768,13 @@ terraform_link = {
 					has_trait = trait_pc_desert_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no
@@ -2820,13 +2820,13 @@ terraform_link = {
 					has_trait = trait_pc_savannah_preference	# cross-group terraforming for main species only
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						any_owned_pop = {	# don't do cross-group terraforming if everyone on planet lives without trouble
 							is_sentient = yes
 							is_being_purged = no
 							from = { habitability = { who = prev value < 0.5 } }
 						}
-						count_owned_pops = {	# don't do either if at least 10 living pops there live comfortably
+						count_owned_pop = {	# don't do either if at least 10 living pops there live comfortably
 							limit = {
 								is_sentient = yes
 								is_being_purged = no

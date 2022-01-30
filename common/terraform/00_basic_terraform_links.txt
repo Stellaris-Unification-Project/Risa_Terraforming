@@ -36,7 +36,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -91,7 +91,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -145,7 +145,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -199,7 +199,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -253,7 +253,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -307,7 +307,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -365,7 +365,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -420,7 +420,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -474,7 +474,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -528,7 +528,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -582,7 +582,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -636,7 +636,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -694,7 +694,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -749,7 +749,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -803,7 +803,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -857,7 +857,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -911,7 +911,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
@@ -965,7 +965,7 @@ terraform_link = {
 				AND = {	# for ai, colonized
 					from = {
 						has_owner = yes
-						owner = { is_same_value = prevprev }
+						is_owned_by = prevprev
 						NOT = {
 							any_owned_pop = {
 								is_sentient = yes
